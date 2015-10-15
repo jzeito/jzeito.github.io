@@ -1,5 +1,7 @@
 /* David was here*/
 
+
+
 body {
 	background-color: #FF4040;
     -webkit-font-smoothing: antialiased;
@@ -149,9 +151,9 @@ box-sizing: border-box;
 #back {
     font-family: rockwell;
     font-size: 25px;
-    margin-top: 200px;
+    margin-top: 150px;
     color: white;
-    margin-left: 40%;
+    margin-left: 45%;
 }
 
 #return1 {
@@ -167,4 +169,24 @@ a:hover {
 }
 a {
     color: white;
+}
+
+@media screen and (max-width: 500px) {
+
+   
+.container {
+    margin-top: 1000px;
+}
+    
+.aboutme {
+    margin-top: 200px;
+    width: 100%;
+    margin-left: 0%;
+}
+    
+#back {
+    margin-top: 100px;
+}
+
+
 }
