@@ -1,6 +1,5 @@
 /* David was here*/
 
-
 body {
 	background-color: #FF4040;
     -webkit-font-smoothing: antialiased;
@@ -17,7 +16,7 @@ box-sizing: border-box;
     margin-top: 200px;
 }
 #name {
-    font-size: 40px;
+    font-size: 35px;
     font-family: rockwell;
     font-weight: bold;
     color: white;
