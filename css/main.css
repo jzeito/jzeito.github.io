@@ -46,7 +46,7 @@ box-sizing: border-box;
 .contact:hover img:last-child{display:inline-block}
 
 
-.video {
+.embed-responsive {
     display: none;
     margin-top: 500px;
 }
@@ -57,8 +57,7 @@ box-sizing: border-box;
 }
 
 .container-img img {
-    width: 180px;
-    height: 150px;
+    width: 33%
 }
 
 .container img {
@@ -178,6 +177,7 @@ a {
     
 #name {
     font-size: 33px;
+    font-family: rockwell;
 }
 
 .reel
