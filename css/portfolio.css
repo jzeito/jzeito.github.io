@@ -1,0 +1,74 @@
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	margin-top: 50px;
+	width: 100%;
+	padding: 0;	
+}	
+
+
+
+.container img {
+  height: 300px;
+  width: 400px;
+  display: inline-block;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.container img:hover {
+  width: 600px;
+  height: 300px;
+}
+
+.navbar-toggle {
+	background-color: #FF4040;
+}
+
+.container-fluid {
+	background-color: #FF4040;
+	font-family: rockwell;
+}
+
+#myNavbar {
+	color: #FF4040;
+}
+
+img.second-row {
+	padding-top: 1px;
+}
+
+img.third-row {
+	padding-top: 1px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+	font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: coral;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+	font-weight: bold;
+
+}
+
+.navbar-inverse .navbar-brand:hover {
+	color: coral;
+}
+
+
+
+
