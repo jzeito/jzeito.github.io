@@ -28,7 +28,7 @@ $('.portfolio').click(function(e){
     $('.container, .embed-responsive').fadeOut('slow', function(){
         $('.container-img').fadeIn('fast');
         $('html,body').animate({
-            scrollTop: document.body.offsetHeight- window.innerHeight
+            scrollTop: 850
         }, 1000);
     });
 });
@@ -54,6 +54,6 @@ $('#return').click(function(e){
         $('.top').fadeIn('fast');
     });
 });
-    
 
+    
 });
