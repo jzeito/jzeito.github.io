@@ -58,7 +58,7 @@ box-sizing: border-box;
 }
 
 .container-img img {
-    width: 33%
+    width: 49%;
 }
 
 .container img {
@@ -152,7 +152,6 @@ box-sizing: border-box;
     font-size: 25px;
     margin-top: 150px;
     color: white;
-    margin-left: 45%;
 }
 
 #return1 {
@@ -202,3 +201,5 @@ a {
 #back {
     margin-top: 100px;
 }
+
+
