@@ -15,7 +15,7 @@ var target = $(this.hash);
 });
 
 $('.reel').click(function(e){    
-    $('.container, .container-img').fadeOut('slow', function(){
+    $('.container1, .container-img').fadeOut('slow', function(){
         $('.embed-responsive, .top').fadeIn('fast');
         $('html,body').animate({
             scrollTop: document.body.offsetHeight- window.innerHeight
@@ -25,7 +25,7 @@ $('.reel').click(function(e){
 
 
 $('.portfolio').click(function(e){    
-    $('.container, .embed-responsive').fadeOut('slow', function(){
+    $('.container1, .embed-responsive').fadeOut('slow', function(){
         $('.container-img').fadeIn('fast');
         $('html,body').animate({
             scrollTop: 850
@@ -41,7 +41,7 @@ $('#return1').click(function(e){
 
  $('.about').click(function(e){    
     $('.top').fadeIn('slow', function(){
-        $('.container').fadeIn('slow');
+        $('.container1').fadeIn('slow');
         $('.container-img, .embed-responsive').fadeOut('slow');
         $('html,body').animate({
             scrollTop: document.body.offsetHeight- window.innerHeight
@@ -50,7 +50,7 @@ $('#return1').click(function(e){
 });
 
 $('#return').click(function(e){    
-    $('.container').fadeOut('fast', function(){
+    $('.container1').fadeOut('fast', function(){
         $('.top').fadeIn('fast');
     });
 });
