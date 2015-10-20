@@ -134,11 +134,11 @@ box-sizing: border-box;
 	top:1px;
 }
 
-#back {
+#back a {
     font-family: rockwell;
     font-size: 25px;
-    margin-top: 150px;
-    color: white;
+    margin-top: 100px;
+    color: red;
 }
 
 #return1 {
@@ -158,6 +158,126 @@ a {
     background-color: white;
 }
 
+.socialmedia {
+    text-align: center;
+    display: none;
+    margin-top: 700px;
+    padding-bottom: 300px;
+}
+
+.socialmedia .wrapper {
+    display: inline-block;
+}
+
+#stalk {
+    font-family: rockwell;
+    color: #fff;
+    font-size: 24px;
+}
+
+.soc {
+    margin-top: 0px;
+}
+
+@font-face {
+    font-family: 'si';
+    src: url('../socialmedia/socicon.eot');
+    src: url('../socialmedia/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../socialmedia/socicon.woff') format('woff'),
+         url('../socialmedia/socicon.ttf') format('truetype'),
+         url('../socialmedia/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../socialmedia/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    font-size: 44px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    border-radius: 12px;
+    margin-right: 12px;
+    color: #FF4040;
+    background-color: #fff;
+}
+
+.soc a:hover {
+    z-index: 2;
+    background-color: #ebe5e5 !important;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-vimeo:before {
+    content:'s';
+}
+.soc-email1:before {
+    content:'<';
+}
+.soc-instagram:before {
+    content:'x';
+}
+.soc-email1:before {
+    padding-right: 0px;
+
+}
 
 
 

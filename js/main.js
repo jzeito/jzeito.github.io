@@ -55,5 +55,22 @@ $('#return').click(function(e){
     });
 });
 
+
+ $('.contact').click(function(e){    
+    $('.top').fadeIn('slow', function(){
+        $('.socialmedia').fadeIn('fast');
+        $('.container-img, .embed-responsive, .container1').fadeOut('slow');
+        $('html,body').animate({
+            scrollTop: document.body.offsetHeight- window.innerHeight
+        }, 500);
+    });
+});
+
+$('#return').click(function(e){    
+    $('.container1').fadeOut('fast', function(){
+        $('.top').fadeIn('fast');
+    });
+});
+
     
 });
