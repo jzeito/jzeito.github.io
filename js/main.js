@@ -33,9 +33,9 @@ $('.portfolio').click(function(e){
     });
 });
 
-$('#return1').click(function(e){    
-    $('.container-img').fadeOut('fast', function(){
-        $('.top').fadeIn('fast');
+$('#back a').click(function(e){    
+    $('.container-img, .embed-responsive, .container1').fadeOut('fast', function(){
+        $('.top').fadeIn('slow');
     });
 });
 
