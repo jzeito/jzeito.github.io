@@ -28,14 +28,14 @@ $('.portfolio').click(function(e){
     $('.container1, .embed-responsive').fadeOut('slow', function(){
         $('.container-img').fadeIn('fast');
         $('html,body').animate({
-            scrollTop: 850
+            scrollTop: 900
         }, 1000);
     });
 });
 
-$('#back a').click(function(e){    
-    $('.container-img, .embed-responsive, .container1').fadeOut('fast', function(){
-        $('.top').fadeIn('slow');
+$('#portfolioback a').click(function(e){    
+    $('.container-img, .embed-responsive, .container1').fadeOut('slow', function(){
+        $('.top').fadeIn('fast');
     });
 });
 
@@ -50,7 +50,7 @@ $('#back a').click(function(e){
 });
 
 $('#return').click(function(e){    
-    $('.container1').fadeOut('fast', function(){
+    $('.container1, .socialmedia').fadeOut('fast', function(){
         $('.top').fadeIn('fast');
     });
 });
@@ -62,12 +62,12 @@ $('#return').click(function(e){
         $('.container-img, .embed-responsive, .container1').fadeOut('slow');
         $('html,body').animate({
             scrollTop: document.body.offsetHeight- window.innerHeight
-        }, 500);
+        }, 1000);
     });
 });
 
-$('#return').click(function(e){    
-    $('.container1').fadeOut('fast', function(){
+$('#backcontact a').click(function(e){    
+    $('.socialmedia').fadeOut('slow', function(){
         $('.top').fadeIn('fast');
     });
 });

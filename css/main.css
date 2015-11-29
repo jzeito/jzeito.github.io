@@ -47,6 +47,13 @@ box-sizing: border-box;
 
 .container-img img {
     width: 49%;
+    border-color: 
+}
+
+#portfolioback #return1 {
+    font-family: rockwell;
+    color: #FF4040;
+    font-size: 30px;
 }
 
 .container1 img {
@@ -65,7 +72,8 @@ box-sizing: border-box;
 .aboutme {
     width: 35%;
     margin-left: 35%;
-    margin-top: 20%
+    margin-top: 50%;
+    padding-bottom: 200px;
 }
 
 #heading {
@@ -134,11 +142,16 @@ box-sizing: border-box;
 	top:1px;
 }
 
-#back a {
+#aboutback a {
     font-family: rockwell;
     font-size: 25px;
     margin-top: 100px;
-    color: #FF4040;
+    color: white;
+}
+
+#aboutback {
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 
@@ -286,5 +299,10 @@ a {
 
 }
 
-
+#backcontact {
+    font-family: rockwell;
+    color: white;
+    font-size: 20px;
+    padding-top: 100px;
+}
 
