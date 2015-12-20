@@ -1,7 +1,3 @@
-/* David was here*/
-
-
-
 body {
 	background-color: #FF4040;
     -webkit-font-smoothing: antialiased;
@@ -45,9 +41,12 @@ box-sizing: border-box;
     display:none;
 }
 
-.container-img img {
+.container-img .container img {
     width: 49%;
-    border-color: 
+}
+
+.container-img .worksamples img {
+    width: 80%;
 }
 
 #portfolioback #return1 {
