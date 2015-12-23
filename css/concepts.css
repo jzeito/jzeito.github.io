@@ -15,15 +15,18 @@ body {
 
 .concepts {
 	margin-top: 100px;
-	background-color: white;
 }
 
 .concepts img {
 	display: inline-block;
-	width: 30%;
+	width: 100%;
 	margin-top: 10px;
 	margin-left: 10px;
 	margin-right: 10px;
+}
+
+.concepts p {
+	margin-left: 20px;
 }
 
 p {
