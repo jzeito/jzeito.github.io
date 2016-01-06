@@ -49,23 +49,27 @@ box-sizing: border-box;
     width: 80%;
 }
 
+#portfolioback {
+    text-align: right;
+}
+
 #portfolioback #return1 {
     font-family: rockwell;
     color: #FF4040;
     font-size: 30px;
 }
 
-.container1 img {
-    width: 180px;
-    height: 150px;
-}
-
 
 .container1 {
     margin-top: 500px;
     width: 100%;
-    background-color: #FF4040;
+    background-color: white;
     display:none;
+}
+
+.container1 img {
+    width: 70%;
+    height: 70%
 }
 
 .aboutme {
@@ -76,14 +80,14 @@ box-sizing: border-box;
 }
 
 #heading {
-	color: white;
+	color: gray;
 	font-style: rockwell;
 	font-weight: bold;
 }
 
 #text {
     font-size: 18px;
-	color: white;
+	color: gray;
 	font-style: rockwell;
 	font-weight: bold;
 }
@@ -93,6 +97,17 @@ box-sizing: border-box;
 	width: 20%;
 }
 
+#aboutback {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#aboutback a {
+    font-family: rockwell;
+    font-size: 25px;
+    margin-top: 100px;
+    color: gray;
+}
 
 
 #button {
@@ -139,18 +154,6 @@ box-sizing: border-box;
 .myButton:active {
 	position:relative;
 	top:1px;
-}
-
-#aboutback a {
-    font-family: rockwell;
-    font-size: 25px;
-    margin-top: 100px;
-    color: white;
-}
-
-#aboutback {
-    text-align: center;
-    padding-bottom: 50px;
 }
 
 

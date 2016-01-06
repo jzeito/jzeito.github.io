@@ -12,6 +12,11 @@ body {
 	margin-top: 100px;
 }
 
+.back a{
+	font-family: rockwell;
+	color: gray;
+	margin-left: 10px;
+}
 
 .concepts {
 	margin-top: 100px;
