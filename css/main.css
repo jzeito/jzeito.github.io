@@ -49,13 +49,19 @@ box-sizing: border-box;
     width: 100%;
 }
 
+h2 {
+    font-family: rockwell;
+    color: gray;
+    font-weight: bold;
+}
+
 #portfolioback {
     text-align: right;
 }
 
 #portfolioback #return1 {
     font-family: rockwell;
-    color: #FF4040;
+    color: Gray;
     font-size: 30px;
 }
 
@@ -175,8 +181,8 @@ a {
 .row {
     background-color: white;
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 250px;
+    padding-top: 250px;
+    padding-bottom: 350px;
 }
 
 .worksamples {
