@@ -366,7 +366,8 @@ video {
 /*VFX*/
 
 #comingsoon {
-	font-family: "source sans pro light";
+	font-family: source sans pro light, serif;
+	font-weight: 300;
 	position: absolute;
 	top: 45px;
 	color: white;
