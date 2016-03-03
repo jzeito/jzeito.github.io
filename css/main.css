@@ -361,4 +361,25 @@ video {
 	width: 150%;
 }
 
+/*VFX*/
+
+#comingsoon {
+	font-family: "source sans pro light";
+	position: absolute;
+	top: 45px;
+	color: white;
+	width: 100%;
+	text-align: center;
+	margin-top: 18%;
+	font-size: 100px;
+	text-align: center;
+}
+
+img#space {
+	width: 100%;
+	height: auto;
+}
+
+@media screen and (max-width: 375px) {}
+
 
