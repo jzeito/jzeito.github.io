@@ -9,6 +9,10 @@ body {
 	overflow-x: hidden;
 }
 
+*p {
+	font-family: helvetica;
+}
+
 .backgroundwrapper {
 	height: 100%;
 	width: 100%;
@@ -41,7 +45,9 @@ body {
 }
 
 .menu li {
-	font-family: helvetica;
+	font-family: source sans pro, serif;
+	font-size: 18px;
+	font-weight: 300;
 	float: left;
 	padding: 15px 20px 0 40px;
 	color: #536E78;
@@ -76,11 +82,10 @@ body {
 }
 
 .row1 {
-
+	padding-left: 80px;
 }
 
 #profile {
-	padding-left: 30px;
 	width: 100%;
 }
 
@@ -90,7 +95,8 @@ body {
 
 
 #checkout {
-	font-family: impact;
+	font-family: source sans pro, serif;
+	font-weight: 300;
 	padding-bottom: 10px;
 	padding-top: 30px;
 }
@@ -278,7 +284,8 @@ slideShow {  0% {
 
 
 h3 {
-	font-family: helvetica;
+	font-family: source sans pro, serif;
+	font-weight: 400;
 }
 
 p {
