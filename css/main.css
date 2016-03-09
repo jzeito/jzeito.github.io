@@ -30,6 +30,12 @@ body {
   height: 102%;
 }
 
+.green {
+	background-color: #3F1658;
+	width: 100%;
+	height: 55%;
+}
+
 .menu {
 	background-color: white;
 	position: fixed;
@@ -87,12 +93,18 @@ body {
 
 #profile {
 	width: 100%;
+	margin-top: 10px;
 }
 
 #hello {
+	margin-top: 10px;
 	text-align: center;
+	color: #D7D7D7;
 }
 
+#me {
+	color: #D7D7D7;
+}
 
 #checkout {
 	font-family: source sans pro, serif;
