@@ -30,8 +30,7 @@ html, body {
 
 .purple #hello {
 	margin-top: 20%;
-	font-family: source sans pro, serif;
-	font-weight: 300;
+	font-family: ayuthaya;
 	color: white;
 	font-size: 72px;
 }
@@ -79,8 +78,7 @@ span{
 }
 
 .purple #producer {
-	font-family: source sans pro, serif;
-	font-weight: 300;
+	font-family: ayuthaya;
 	color: white;
 	font-size: 54px;
 	margin-bottom: 10%;
