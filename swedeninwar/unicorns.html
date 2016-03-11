@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sweden in war</title>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|Istok+Web' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css"/>
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+    <script>
+            $(function() {
+              $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+
+                  var target = $(this.hash);
+                  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                  if (target.length) {
+                    $('html,body').animate({
+                      scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                  }
+                }
+              });
+            });
+    </script>
+
+    </head>
+    
+    <body>
+        
+        <div class="backgroundvideo">
+         <div class="donatenow">
+          <a href="#three">Scroll to Section Three</a>
+         </div>
+        <div class="container">
+         <img class="logo" src="img/logo.png">
+          <h2 class="h2"> IN A REVERSVE SITUATION<BR> WHEN YOU HAVE TO LEAVE YOU'R HOME</h2>
+           <video autoplay loop muted poster="img/road.png" id="background">
+            <source src="img/war.mp4" type="video/mp4">
+           </video>
+           <div class="backgroundvideo1"></div>
+        </div>
+        </div>
+        
+        <div class="characterpicture">
+         <div class="container">
+          <div class="refugee"></div>
+        
+         </div>
+        </div>
+        
+        <div class="illustration">
+         <div class="container">
+          <div class="bus">
+           <img src="img/bus.svg">
+          </div>
+         </div>
+        </div>
+       
+        <div class="gothenburgpicture">
+         <div class="container">
+          <div class="container40">
+           <h2> Ipsum Lorum </h2>
+            <p>Nulla eget lectus scelerisque, interdum tortor a, malesuada lorem. Donec ornare nibh sed ipsum sagittis gravida. Maecenas pharetra bibendum nisi. Sed ultrices, lorem sit amet cursus placerat, nunc ex efficitur nibh, pretium volutpat felis turpis vitae nisl. Maecenas eros dui, semper in vulputate nec, luctus vel mi. Cras malesuada ipsum tellus. Nunc non sagittis nisi.</p>
+          </div>
+         <div class="container40">
+           <h2> This is what you can do</h2>
+             <ol>
+            	<li> Clothes</li>
+            	<li>Attenton</li>
+            	<li><button class="button1"> Donate</button></li>
+             </ol>
+        </div>
+    </div>
+ </div>        
+        <div class="donationinfo">
+         <div class="container">
+          <div class="container40b">
+           <h2 id="three">Section Three</h2>
+            <img src="img/flykt.jpg">
+             <button class="button1"> DONATE</button>
+         </div>
+        <div class="container40">
+         <h2> This is what you can do</h2>
+          <ol>
+        	<li> Clothes</li>
+        	<li>Attenton</li>
+        	<li><a href="https://se.betternow.org/" target="_blank">Start Your Own Collection</a></li>
+         </ol>
+        </div>
+      </div>
+    </div>       
+    <footer>         
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+        (function() {
+            var $win = $(window);
+            
+            function checkScroll() {
+                if ($win.scrollTop() > 1500) {
+                    $win.off('scroll', checkScroll);
+                    $('.bus img').fadeIn(1000);
+                }
+            }
+            
+            $win.scroll(checkScroll);
+        })();
+</script>
+<script>
+        (function() {
+            var $win = $(window);
+            
+            function checkScroll() {
+                if ($win.scrollTop() > 3000) {
+                    $win.off('scroll', checkScroll);
+                    $('.bus img').fadeOut(500);
+                }
+            }
+            
+            $win.scroll(checkScroll);
+        })();
+</script>
+</footer>        
+</body>
+</html>
