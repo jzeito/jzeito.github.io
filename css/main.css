@@ -99,8 +99,8 @@ span{
 	margin-bottom: 100px;
 }
 
-.white {
-	padding-top: 100px;
+.white video {
+	margin-top: 35px;
 }
 
 video {
@@ -118,6 +118,7 @@ video {
 }
 
 #swedeninwar {
+	padding-top: 20px;
 	font-family: source sans pro, serif;
 	font-weight: 300;
 	font-style: italic;
