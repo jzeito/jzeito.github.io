@@ -99,6 +99,10 @@ span{
 	margin-bottom: 100px;
 }
 
+.white {
+	padding-top: 100px;
+}
+
 video {
 	width: 100%;
 	height: auto;
@@ -372,3 +376,61 @@ img#space {
 	height: auto;
 }
 
+@media only screen and (max-device-width: 375px) {
+		.purple #hello {
+			font-size: 40px;
+		}
+		.purple #producer {
+			font-size: 28px;
+		}
+		.jobtitle img {
+			display: none;
+		}
+		.col-md-1 img {
+			width: 75%;
+		}
+		.wrapper {
+			margin-top: 0px;
+		}
+		#imdb {
+			font-size: 30px;
+		}
+		#readmore {
+			font-size: 30px;
+		}
+		.green img {
+			width: 100%;
+		}
+		#vardkollen {
+			font-size: 32px;
+		}
+		#vardkollentext {
+			font-size: 20px;
+		}
+		#vfx {
+			margin-top: 8%;
+			font-size: 80px;
+		}
+		#unicef {
+			font-size: 32px;
+		}
+		#uniceftext {
+			font-size: 20px;
+		}
+		.contact  {
+			padding-left: 10px;
+		}
+		.contact img {
+			width: 70%;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+			margin-left: 25px;
+		}
+		.contact h1 {
+			font-size: 32px;
+		}
+		.contact p {
+			font-size: 20px;
+		}
