@@ -396,10 +396,30 @@ video {
 
 .district {
 	margin-left: -20px;
-	margin bottom: 20px;
+	margin-bottom: 20px;
 }
 
 .district h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+}
+
+.newyork {
+	margin-left: -20px;
+	margin-bottom: 20px;
+}
+
+.newyork h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+}
+
+.space {
+	margin-left: -20px;
+	margin bottom: 20px;
+}
+
+.space h1 {
 	font-family: source sans pro, serif;
 	font-weight: 300;
 }
