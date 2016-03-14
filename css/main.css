@@ -372,6 +372,39 @@ video {
 	text-align: center;
 }
 
+.vfxheader h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+	font-size: 50px;
+	text-align: center;
+}
+
+.vfxheader h2 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+}
+
+.julia {
+	margin-left: -20px;
+	margin-bottom: 20px;
+}
+
+.julia h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+}
+
+.district {
+	margin-left: -20px;
+	margin bottom: 20px;
+}
+
+.district h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+}
+
+
 img#space {
 	width: 100%;
 	height: auto;
