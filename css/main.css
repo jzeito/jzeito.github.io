@@ -36,6 +36,7 @@ html, body {
 	font-size: 68px;
 }
 
+
 #hello {
   white-space: nowrap;
   overflow: hidden;
@@ -70,6 +71,15 @@ span{
 ::selection{
   background: black;
 }
+
+.purple #jp {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+	color: white;
+	font-size: 50px;
+	margin-bottom: 10%;
+}
+
 
 #producer {
   white-space: nowrap;
