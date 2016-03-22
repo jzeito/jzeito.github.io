@@ -469,7 +469,7 @@ img#space {
 			font-size: 30px;
 		}
 		.green img {
-			width: 100%;
+			width: 110%;
 		}
 		#vardkollen {
 			font-size: 32px;
@@ -481,6 +481,11 @@ img#space {
 			margin-top: 8%;
 			font-size: 80px;
 		}
+
+		.blue img {
+			width: 110%;
+		}
+
 		#unicef {
 			font-size: 32px;
 		}
