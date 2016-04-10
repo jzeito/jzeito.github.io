@@ -116,6 +116,22 @@ span{
 video {
 	width: 100%;
 	height: auto;
+	margin-bottom: -5px;
+}
+
+.purple2 {
+	background-color: #34977E;
+	width: 100%;
+	height: 100%;
+}
+
+.purple2 a {
+	color: white;
+}
+
+.purple2 img {
+	width: 100%;
+	margin-left: -20px;
 }
 
 .white {
@@ -337,6 +353,45 @@ video {
 
 .imdbpictures {
 	margin-left: -200px;
+}
+
+/*workaround*/
+
+.workaroundpage {
+	margin-top: 30px;
+}
+
+.workaroundpage img {
+	width: 200%;
+	height: auto;
+}
+
+.workaroundpage a {
+	color: #3F1658;
+}
+
+.workaroundpage h1 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+	font-size: 58px;
+	color: #3F1658;
+	margin-left: 30px;
+}
+
+.workaroundpage h3 {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+	font-size: 38px;
+	color: #3F1658;
+	margin-left: 30px;
+}
+
+.workaroundpage p {
+	font-family: source sans pro, serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: #3F1658;
+	margin-left: 30px;
 }
 
 /*vårdkollen*/
