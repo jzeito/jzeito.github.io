@@ -456,43 +456,67 @@ video {
 }
 
 .julia {
+	background-color: #34977E;
 	margin-left: -20px;
 	margin-bottom: 20px;
 }
 
 .julia h1 {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
 	font-family: source sans pro, serif;
 	font-weight: 300;
+	color: white;
+	font-size: 50px;
 }
 
 .district {
+	background-color: #34977E;
 	margin-left: -20px;
 	margin-bottom: 20px;
 }
 
 .district h1 {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
 	font-family: source sans pro, serif;
 	font-weight: 300;
+	color: white;
+	font-size: 50px;
 }
 
 .newyork {
+	background-color: #34977E;
 	margin-left: -20px;
 	margin-bottom: 20px;
 }
 
 .newyork h1 {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
 	font-family: source sans pro, serif;
 	font-weight: 300;
+	color: white;
+	font-size: 50px;
 }
 
 .space {
+	background-color: #34977E;
 	margin-left: -20px;
 	margin bottom: 20px;
 }
 
 .space h1 {
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 150px;
 	font-family: source sans pro, serif;
 	font-weight: 300;
+	color: white;
+	font-size: 50px;
 }
 
 
