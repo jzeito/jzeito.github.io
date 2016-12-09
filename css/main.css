@@ -100,6 +100,11 @@ span{
 	margin-left: 10%;
 }
 
+#profilepic {
+	width: 400%;
+	height: 400%;
+}
+
 .reel {
 	position: relative;
 }
