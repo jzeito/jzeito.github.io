@@ -27,3 +27,16 @@ a:link {
 .col {
 	padding-bottom: 20px;
 }
+
+#vardkollen {
+	color: #007bff;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#0056b3;
+}
+
+.workaroundtext {
+	color: #DEDEDE;
+}
